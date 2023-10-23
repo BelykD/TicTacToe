@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ae03ff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:fontFamily="@font/halloween"
+            android:gravity="center"
+            android:text="@string/tictactoe"
+            android:textColor="#ff7100"
+            android:textSize="32dp" />
+
+        <TextView
+            android:id="@+id/playingAs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/halloween"
+            android:gravity="center"
+            android:text="@string/playerAs"
+            android:textColor="#ff7100"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/tile1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/view5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/tile2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/view6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1"
+            android:layout_marginTop="10dp" />
+
+        <ImageView
+            android:id="@+id/tile3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:background="#fd9702"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/tile4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center_vertical" />
+
+        <View
+            android:id="@+id/view7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1" />
+
+        <ImageView
+            android:id="@+id/tile5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center_vertical" />
+
+        <View
+            android:id="@+id/view8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1" />
+
+        <ImageView
+            android:id="@+id/tile6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center_vertical" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="0.05"
+        android:background="#fd9702"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp" >
+
+        <ImageView
+            android:id="@+id/tile7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/view9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/tile8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+
+        <View
+            android:id="@+id/view10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:background="#fd9702"
+            android:layout_weight="0.1"
+            android:layout_marginBottom="10dp" />
+
+        <ImageView
+            android:id="@+id/tile9"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:src="@drawable/outline"
+            android:layout_gravity="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/playerTurn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:fontFamily="@font/halloween"
+            android:gravity="center"
+            android:text="@string/playerTurn"
+            android:textColor="#ff7100"
+            android:textSize="22dp" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1"
+            android:backgroundTint="#ff7100"
+            android:fontFamily="@font/halloween"
+            android:gravity="center"
+            android:text="@string/reset" />
+    </LinearLayout>
+</LinearLayout>

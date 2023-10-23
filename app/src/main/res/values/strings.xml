@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TicTacToe</string>
+    <string name="welcome">Welcome to Tic-Tac-Toe!</string>
+    <string name="player">Player: </string>
+    <string name="playerAs">Playing as: </string>
+    <string name="instructions">How to Play</string>
+    <string name="standings">Standings</string>
+
+    <string name="save">Save</string>
+    <string name="clear">Clear</string>
+    <string name="enterNamesText">Enter Player Names</string>
+    <string name="playerTurn">Turn: Player 1</string>
+    <string name="tictactoe">Tic-Tac-Toe</string>
+    <string name="reset">Reset</string>
+
+    <string name="how_to_play">Start by viewing the \"Enter Names\" menu and add all of the
+        of players who will be playing Tic-Tac-Toe.\n\nAfter entering names, click on a name
+        to set the current player.\n\nNext, navigate back to the home menu where you can access
+        the \"Play game\" activity. The game always starts as the player\'s turn and after your
+        first move android will make a move\, etc. You can hit the \"Reset\" button at anytime to
+        fully restart the game.\n\nOnce you are done playing you can navigate back to the main menu
+        where you can find the \"Standings\" activity which keeps track of all player scores as well
+        as Android\'s score.
+    </string>
+
+    <string-array name="item_list">
+        <item>Enter Names</item>
+        <item>Play game</item>
+        <item>Standings</item>
+    </string-array>
+</resources>
